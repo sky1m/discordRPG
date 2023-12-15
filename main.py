@@ -9,6 +9,7 @@ screen_height = 600
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("My Game")
 
+
 # Game loop
 running = True
 while running:
@@ -18,9 +19,11 @@ while running:
             running = False
 
     # Game logic
+    
 
     # Drawing code
     screen.fill((0, 0, 0))  # Fill the screen with black
+    surface = pygame.image.load("assets/jotchua.png").convert()
     # Add your drawing code here
 
     # Update the display
